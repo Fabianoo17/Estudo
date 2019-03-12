@@ -1,0 +1,12 @@
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\bin\Debug\ProdutoCRUD.Infra.dll.config
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\bin\Debug\ProdutoCRUD.Infra.dll
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\bin\Debug\ProdutoCRUD.Infra.pdb
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\bin\Debug\EntityFramework.dll
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\bin\Debug\ProdutoCRUD.Dominio.dll
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\bin\Debug\ProdutoCRUD.Dominio.pdb
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\bin\Debug\EntityFramework.xml
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\obj\Debug\ProdutoCRUD.Infra.csprojResolveAssemblyReference.cache
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\obj\Debug\ProdutoCRUD.Infra.dll
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Infra\obj\Debug\ProdutoCRUD.Infra.pdb

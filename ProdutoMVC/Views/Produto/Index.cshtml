@@ -1,0 +1,160 @@
+﻿@model IEnumerable<ProdutoCRUD.Dominio.Produto>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
+
+
+<div class="col-md-11">
+<h2>Página Inicial</h2>
+</div>
+
+
+<div class="col-md-1" >
+
+  
+   </br> @Html.DropDownList("CategoriaId", (IEnumerable<SelectListItem>)ViewBag.CategoriaId, "--Selecione Categoria--", new { @onChange = "selectedtext(this)" })
+
+
+    </div>
+<script>
+    function selectedtext(ddlitem)
+    {
+        var value = ddlitem.value;
+        var id = parseInt(value);
+ 
+        $.ajax({
+            type: "POST",
+            url: "/Produto/index/"+id,
+            contentType: 'application/json',
+            cache: false,
+            async: true,
+            success: function () {
+           
+            alert('sucesso')
+            
+
+
+            }
+
+
+
+
+        })
+
+    }
+
+
+
+</script>
+
+
+<script>
+
+    function stringToDate(_date, _format, _delimiter) {
+        var formatLowerCase = _format.toLowerCase();
+        var formatItems = formatLowerCase.split(_delimiter);
+        var dateItems = _date.split(_delimiter);
+        var monthIndex = formatItems.indexOf("mm");
+        var dayIndex = formatItems.indexOf("dd");
+        var yearIndex = formatItems.indexOf("yyyy");
+        var month = parseInt(dateItems[monthIndex]);
+        month -= 1;
+        var formatedDate = new Date(dateItems[yearIndex], month, dateItems[dayIndex]);
+        return formatedDate;
+    }
+
+
+
+    var dia = Date.today();
+
+    $(document).ready(function () {
+        $('.data').each(function () {
+            var dueDate = $(this).text();
+
+            var due = Date.parse(stringToDate(dueDate, "dd/MM/yyyy", "/"));
+
+            var compare = Date.compare(due, dia);
+
+            if (compare == -1) {
+                $(this).addClass("expirado");
+            }
+        });
+    });
+
+
+</script>
+
+
+
+
+<table class="table">
+
+
+
+<tr class="jumbotron">
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DescProduto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataCadasto)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataVencimento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Preco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Categoria)
+        </th>
+        <th>Ações</th>
+    </tr>
+
+
+
+
+@foreach (var item in Model)
+{
+
+
+    <tr >
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.DescProduto)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataCadasto)
+        </td>
+        <td class="data">
+            @Html.DisplayFor(modelItem => item.DataVencimento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Preco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Categoria.CategoriaNome)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id = item.ProdutoId }) |
+
+            @Html.ActionLink("Excluir", "Delete", new { id = item.ProdutoId })
+        </td>
+    </tr>
+
+
+}
+
+</table>
+
+

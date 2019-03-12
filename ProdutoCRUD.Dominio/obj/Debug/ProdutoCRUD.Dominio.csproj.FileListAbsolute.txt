@@ -1,0 +1,5 @@
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Dominio\obj\Debug\ProdutoCRUD.Dominio.csprojResolveAssemblyReference.cache
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Dominio\bin\Debug\ProdutoCRUD.Dominio.dll
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Dominio\bin\Debug\ProdutoCRUD.Dominio.pdb
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Dominio\obj\Debug\ProdutoCRUD.Dominio.dll
+c:\users\fabia\onedrive\documentos\visual studio 2013\Projects\ProdutoCRUD\ProdutoCRUD.Dominio\obj\Debug\ProdutoCRUD.Dominio.pdb

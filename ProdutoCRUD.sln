@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdutoMVC", "ProdutoMVC\ProdutoMVC.csproj", "{C8E26908-CDB9-443D-9342-03168F4FF8F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdutoCRUD.Dominio", "ProdutoCRUD.Dominio\ProdutoCRUD.Dominio.csproj", "{72F5D902-AE33-4C61-9E97-9D014C0374A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdutoCRUD.Infra", "ProdutoCRUD.Infra\ProdutoCRUD.Infra.csproj", "{7FC1356A-157F-4717-A842-F5D6DA946341}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8E26908-CDB9-443D-9342-03168F4FF8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E26908-CDB9-443D-9342-03168F4FF8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E26908-CDB9-443D-9342-03168F4FF8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E26908-CDB9-443D-9342-03168F4FF8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F5D902-AE33-4C61-9E97-9D014C0374A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F5D902-AE33-4C61-9E97-9D014C0374A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F5D902-AE33-4C61-9E97-9D014C0374A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F5D902-AE33-4C61-9E97-9D014C0374A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC1356A-157F-4717-A842-F5D6DA946341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC1356A-157F-4717-A842-F5D6DA946341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC1356A-157F-4717-A842-F5D6DA946341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC1356A-157F-4717-A842-F5D6DA946341}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
