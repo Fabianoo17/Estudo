@@ -10,5 +10,6 @@ namespace ProdutoCRUD.Infra.Repositories
 {
     public class ProdutoRepository : RepositoryBase<Produto> , IProdutoRepository
     {
+
     }
 }
